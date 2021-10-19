@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/pic32mx_xlp_sk/production/uart_echo_blocking_pic32mx_170.X.production.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>263312</length>                 
+      <used>5884</used>                     
+      <free>257428</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>65536</length>                 
+      <used>601</used>                     
+      <free>64935</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

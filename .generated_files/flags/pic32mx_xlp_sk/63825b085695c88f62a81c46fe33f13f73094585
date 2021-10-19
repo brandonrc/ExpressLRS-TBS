@@ -1,0 +1,1 @@
+$(MP_EXTRA_CC_PRE)  -g -x c++ -c -mprocessor=$(MP_PROCESSOR_OPTION)  -frtti -fexceptions -fno-check-new -fenforce-eh-specs -ffunction-sections -O1 -I"../src" -I"../src/config/pic32mx_xlp_sk"  -DXPRJ_pic32mx_xlp_sk=$(CND_CONF)  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  C:\Users\brand\PIC32\ExpressLRS.X\Source Files\StubbornSender\stubborn_sender.cpp

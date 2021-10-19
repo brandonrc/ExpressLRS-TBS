@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="65">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_xlp_sk" projectFiles="true">
+          <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clk" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/clk/plib_clk.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f2" displayName="evic" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/evic/plib_evic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f3" displayName="gpio" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/gpio/plib_gpio.h</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f5" displayName="spi" projectFiles="true">
+              <logicalFolder name="f1" displayName="spi_master" projectFiles="true">
+                <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/spi/spi_master/plib_spi_master_common.h</itemPath>
+                <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/spi/spi_master/plib_spi2_master.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="f4" displayName="uart" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart_common.h</itemPath>
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart1.h</itemPath>
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart2.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/toolchain_specifics.h</itemPath>
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/definitions.h</itemPath>
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/device.h</itemPath>
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/interrupts.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <itemPath>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/include/LowPassFilter.h</itemPath>
+      <itemPath>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/include/native.h</itemPath>
+      <itemPath>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/include/targets.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="pic32mx_xlp_sk.mhc" projectFiles="true">
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/core.yml</itemPath>
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/dfp.yml</itemPath>
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/project.yml</itemPath>
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/settings.yml</itemPath>
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/spi2.yml</itemPath>
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/uart1.yml</itemPath>
+        <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/uart2.yml</itemPath>
+      </logicalFolder>
+      <itemPath>Makefile</itemPath>
+      <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/harmony-manifest-success.yml</itemPath>
+      <itemPath>uart_echo_blocking_pic32mx_xlp_sk.mc3</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_xlp_sk" projectFiles="true">
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/p32MX170F256D.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_xlp_sk" projectFiles="true">
+          <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clk" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/clk/plib_clk.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f2" displayName="evic" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/evic/plib_evic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f3" displayName="gpio" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/gpio/plib_gpio.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f5" displayName="spi" projectFiles="true">
+              <logicalFolder name="f1" displayName="spi_master" projectFiles="true">
+                <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/spi/spi_master/plib_spi2_master.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder name="f4" displayName="uart" projectFiles="true">
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart1.c</itemPath>
+              <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart2.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder name="f2" displayName="stdio" projectFiles="true">
+            <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/stdio/xc32_monitor.c</itemPath>
+          </logicalFolder>
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/initialization.c</itemPath>
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/interrupts.c</itemPath>
+          <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/config/pic32mx_xlp_sk/exceptions.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="CRC" displayName="CRC" projectFiles="true">
+        <itemPath>Source Files/CRC/crc.cpp</itemPath>
+        <itemPath>Source Files/CRC/crc.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="CRSF" displayName="CRSF" projectFiles="true">
+        <itemPath>Source Files/CRSF/CRSF.cpp</itemPath>
+        <itemPath>Source Files/CRSF/CRSF.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="CrsfProtocol"
+                     displayName="CrsfProtocol"
+                     projectFiles="true">
+        <itemPath>Source Files/CrsfProtocol/crsf_protocol.h</itemPath>
+        <itemPath>Source Files/CrsfProtocol/dummy.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="FHSS" displayName="FHSS" projectFiles="true">
+        <itemPath>Source Files/FHSS/FHSS.cpp</itemPath>
+        <itemPath>Source Files/FHSS/FHSS.h</itemPath>
+        <itemPath>Source Files/FHSS/random.cpp</itemPath>
+        <itemPath>Source Files/FHSS/random.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="FIFO" displayName="FIFO" projectFiles="true">
+        <itemPath>Source Files/FIFO/FIFO.cpp</itemPath>
+        <itemPath>Source Files/FIFO/FIFO.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="LQCALC" displayName="LQCALC" projectFiles="true">
+        <itemPath>Source Files/LQCALC/LQCALC.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="MSP" displayName="MSP" projectFiles="true">
+        <itemPath>Source Files/MSP/msp.cpp</itemPath>
+        <itemPath>Source Files/MSP/msp.h</itemPath>
+        <itemPath>Source Files/MSP/msptypes.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="OTA" displayName="OTA" projectFiles="true">
+        <itemPath>Source Files/OTA/OTA.cpp</itemPath>
+        <itemPath>Source Files/OTA/OTA.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="PFD" displayName="PFD" projectFiles="true">
+        <itemPath>Source Files/PFD/PFD.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="POWERMGNT" displayName="POWERMGNT" projectFiles="true">
+        <itemPath>Source Files/POWERMGNT/POWERMGNT.cpp</itemPath>
+        <itemPath>Source Files/POWERMGNT/POWERMGNT.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="StubbornReceiver"
+                     displayName="StubbornReceiver"
+                     projectFiles="true">
+        <itemPath>Source Files/StubbornReceiver/stubborn_receiver.cpp</itemPath>
+        <itemPath>Source Files/StubbornReceiver/stubborn_receiver.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="StubbornSender"
+                     displayName="StubbornSender"
+                     projectFiles="true">
+        <itemPath>Source Files/StubbornSender/stubborn_sender.cpp</itemPath>
+        <itemPath>Source Files/StubbornSender/stubborn_sender.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="SX127xDriver"
+                     displayName="SX127xDriver"
+                     projectFiles="true">
+        <itemPath>Source Files/SX127xDriver/SX127x.cpp</itemPath>
+        <itemPath>Source Files/SX127xDriver/SX127x.h</itemPath>
+        <itemPath>Source Files/SX127xDriver/SX127xDriver.h</itemPath>
+        <itemPath>Source Files/SX127xDriver/SX127xHal.cpp</itemPath>
+        <itemPath>Source Files/SX127xDriver/SX127xHal.h</itemPath>
+        <itemPath>Source Files/SX127xDriver/SX127xRegs.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="SX1280Driver"
+                     displayName="SX1280Driver"
+                     projectFiles="true">
+        <itemPath>Source Files/SX1280Driver/SX1280.cpp</itemPath>
+        <itemPath>Source Files/SX1280Driver/SX1280.h</itemPath>
+        <itemPath>Source Files/SX1280Driver/SX1280Driver.h</itemPath>
+        <itemPath>Source Files/SX1280Driver/SX1280_hal.cpp</itemPath>
+        <itemPath>Source Files/SX1280Driver/SX1280_hal.h</itemPath>
+        <itemPath>Source Files/SX1280Driver/SX1280_Regs.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Telemetry" displayName="Telemetry" projectFiles="true">
+        <itemPath>Source Files/Telemetry/telemetry.cpp</itemPath>
+        <itemPath>Source Files/Telemetry/telemetry.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="TelemetryProtocol"
+                     displayName="TelemetryProtocol"
+                     projectFiles="true">
+        <itemPath>Source Files/TelemetryProtocol/dummy.c</itemPath>
+        <itemPath>Source Files/TelemetryProtocol/telemetry_protocol.h</itemPath>
+      </logicalFolder>
+      <itemPath>../../Harmony3/csp_apps_pic32mx/apps/uart/uart_echo_blocking/firmware/src/main_pic32mx_xlp.c</itemPath>
+      <itemPath>Source Files/common.cpp</itemPath>
+      <itemPath>Source Files/LED.h</itemPath>
+      <itemPath>Source Files/common.h</itemPath>
+      <itemPath>Source Files/config.cpp</itemPath>
+      <itemPath>Source Files/config.h</itemPath>
+      <itemPath>Source Files/rx_main.cpp</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/CRC</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/CRSF</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/src</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/FHSS</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/FIFO</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/LQCALC</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/MSP</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/PFD</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/POWERMGNT</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/StubbornReceiver</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/SX1280Driver</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/Telemetry</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/TelemetryProtocol</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/lib/OTA</Elem>
+    <Elem>../../Downloads/ExpressLRS-1.1.x-maintenance/ExpressLRS-1.1.x-maintenance/src/include</Elem>
+    <Elem>Source Files</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="pic32mx_xlp_sk" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>PIC32MX170F256D</targetDevice>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool>PICkit3PlatformTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>3.01</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.5.259"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>false</parseOnProdLoad>
+          <alternateLoadableFile></alternateLoadableFile>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <C32>
+        <property key="additional-warnings" value="true"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32mx_xlp_sk"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="true"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value="-fno-common"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+        <appendMe value="-Wformat=2 -Werror-implicit-function-declaration -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-format-attribute -Wno-deprecated-declarations -Wpacked -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wmissing-noreturn"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-CO>
+        <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
+      </C32-CO>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="false"/>
+        <property key="additional-options-write-sla" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value="512"/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="true"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="true"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32mx_xlp_sk"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O1"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
+        <property key="omit-pack-options" value="1"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
+        <property key="wpo-lto" value="false"/>
+      </C32Global>
+      <PICkit3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="CTMU" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI/I2S 1" value="true"/>
+        <property key="SPI/I2S 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x1d003fff"/>
+        <property key="memories.programmemory.start" value="0x1d000000"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x1d003fff"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="true"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+      <PKOBSKDEPlatformTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="lastid" value=""/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d03ffff"/>
+        <property key="memories.userotp" value="true"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges" value=""/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges"
+                  value="${memories.eedata.default}"/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="true"/>
+      </PKOBSKDEPlatformTool>
+      <Tool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="CTMU" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI/I2S 1" value="true"/>
+        <property key="SPI/I2S 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="debugoptions.debug-startup" value="Use system settings"/>
+        <property key="debugoptions.reset-behaviour" value="Use system settings"/>
+        <property key="firmware.download.all" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x1d003fff"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d03ffff"/>
+        <property key="memories.programmemory.start" value="0x1d000000"/>
+        <property key="memories.userotp" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges" value=""/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges"
+                  value="${memories.eedata.default}"/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x1d003fff"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="true"/>
+        <property key="voltagevalue" value="3.25"/>
+      </Tool>
+    </conf>
+  </confs>
+</configurationDescriptor>
